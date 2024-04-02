@@ -64,7 +64,7 @@ async def cmd_smart(message:types.Message):
 
 @dp.message(Command('gameinfo'))
 async def cmd_smart(message:types.Message):
-    await message.answer('\n1. /Gta5 \n2. /Skyrim \n3. /Minecraft \n4. /Assasin_Creed \n5. /Cyberpunk2077 \n6. /The_Wither \n7. /STALKER \n8. /Portal \n9. /Metro_Last_Light \n10. /Dota2 \n11. /Call_of_Duty \n12. /Far_Cry \n13. /CSGO \n14. /Fortnite \n15. /Rocket_League')
+    await message.answer('\n1. /Gta5 \n2. /Skyrim \n3. /Minecraft \n4. /Assasin_Creed \n5. /Cyberpunk2077 \n6. /The_Wither \n7. /STALKER \n8. /Portal \n9. /Metro_Last_Light \n10. /Dota2 \n11. /Call_of_Duty \n12. /Far_Cry \n13. /CSGO \n14. /Fortnite \n15. /Rocket_League \n16. /Dead_Space \n17. /Layers_of_Fear \n18. /Resident_Evil2_Remake \n19. /Resident_Evil7_Remake \n20. /PT \n21. /The_Beast_Inside \n22. /Song_of_Horror \n23. /Phasmophobia \n24. /Alan_Wake2 \n25. /Little_Nightmares \n26. /The_Mortuary_Assistant \n27. /Ghost_Wathers \n28. /The_Evil_Within \n29. /Genshin_Impact \n30. /Dota2 \n31. /World_of_Warcraft \n32. /Bloodborne \n33. /The_Wither2 \n34. /The_Wither3 \n35. /Dark_Souls2 \n36. /Hollow_Knight \n37. /Sekiro_Shadows_Die_Twice \n38. /Nioh ')
 
 @dp.message(Command('Gta5'))
 async def cmd_smart(message:types.Message):
@@ -126,6 +126,98 @@ async def cmd_smart(message:types.Message):
 @dp.message(Command('Rocket_League'))
 async def cmd_smart(message:types.Message):
     await message.answer('аркадная гоночная игра в жанре футбола, разработанная и изданная компанией Psyonix для Windows, PlayStation 4. Выход игры состоялся 7 июля 2015 года для платформ Windows и PlayStation 4. В 2016 году игра выпускается для Xbox One[2] и для Linux и macOS, но поддержка последних была прекращена в 2020 году. В 2017 выпускается версия для Nintendo Switch. До конца лета 2020 года Psyonix планировала перевести игру из премиальной игры в бесплатную модель, но по непредвиденным обстоятельствам стала бесплатной только 23 сентября 2020 года.')
+
+@dp.message(Command('Dead_Space'))
+async def cmd_smart(message:types.Message):
+    await message.answer('медиафраншиза, объединяющая ряд компьютерных игр в жанре survival horror, анимационных фильмов, книг и комиксов по их мотивам. Лежащие в основе медиафраншизы игры были разработаны студией Visceral Games под руководством геймдизайнера Глена Скофилда; их издавала компания Electronic Arts. Действие игр серии, выполненных в духе научной фантастики и фильмов ужасов, происходит в будущем — в XXVI веке, в космосе и на других планетах')
+
+@dp.message(Command('Layers_of_Fear'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' компьютерная игра в жанре психологического хоррора, разработанная польской студией Bloober Team и изданная Aspyr. Выпуск игры состоялся 16 февраля 2016 года для персональных компьютеров на операционных системах Windows, Linux и macOS, а также для игровых приставок PlayStation 4 и Xbox One. 21 февраля 2018 года вышла Layers of Fear: Legacy — версия игры для Nintendo Switch.')
+
+@dp.message(Command('Resident_Evil2_Remake'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' компьютерная игра в жанре survival horror, разработанная Capcom R&D Division 1 и изданная Capcom 25 января 2019 года для PlayStation 4, Xbox One и Windows. Ремейк одноимённой игры 1998 года. Сюжетная кампания игры рассказывает о полицейском-новичке Леоне Скотте Кеннеди и студентке Клэр Редфилд, которые пытаются выбраться из города Раккун-сити, поражённого зомби-вирусом.')
+
+@dp.message(Command('Resident_Evil7_Remake'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' компьютерная игра в жанре survival horror, являющаяся девятой по счёту в основной серии Resident Evil[2]. Разработана и выпущена компанией Capcom в 2017 году для PlayStation 4, Xbox One и Microsoft Windows. Версия игры для PlayStation 4 также поддерживает режим виртуальной реальности через шлем PlayStation VR. В июне 2022 года были выпущены версии для PlayStation 5 и Xbox Series X/S. Выпущена в честь 20-летия серии игр Resident Evil.')
+
+@dp.message(Command('PT'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' компьютерная игра в жанре психологического хоррора, разработанная Kojima Productions под псевдонимом «7780s Studio» и изданная Konami. Игра была срежиссирована и разработана Хидео Кодзимой в сотрудничестве с режиссером Гильермо дель Торо и была выпущена бесплатно на PlayStation 4.')
+
+@dp.message(Command('The_Beast_Inside'))
+async def cmd_smart(message:types.Message):
+    await message.answer('то хоррор-адвенчура, в которой криптоаналитику ЦРУ Адаму предстоит расследовать таинственное убийство 100-летней давности, ставящее под угрозу его собственную жизнь. По сюжету Адам со своей женой Эммой переезжает в тихий загородный дом, чтобы спокойно поработать над взломом военного шифра и изменить ход Холодной войны, но обнаруженный в подвале дневник внезапно запускает в настоящее кошмарные призраки прошлого.')
+
+@dp.message(Command('Song_of_Horror'))
+async def cmd_smart(message:types.Message):
+    await message.answer('это игра в жанре приключения. По сюжету игры знаменитый писатель Себастьян П. Хашер пропал вместе со всей своей семьёй. Встревожившись, его редактор отправил помощника в дом писателя на поиски, но тот так и не вернулся... Эти исчезновения запускают цепочку событий, раскрывающих нечто ужасное: причиной всему оказывается безымянное тёмное существо, известное как Присутствие.')
+
+@dp.message(Command('Phasmophobia'))
+async def cmd_smart(message:types.Message):
+    await message.answer('многопользовательская компьютерная игра в жанре survival horror, разработанная и выпущенная британской студией Kinetic Games. Игра была выпущена в Steam для Windows в сентябре 2020 года в раннем доступе вместе с поддержкой VR. В Phasmophobia игроки принимают на себя роли охотников за привидениями, исследующих тот или иной дом в поисках паранормальной активности; игра использует технологию распознавания речи, так что обитающее в доме привидение реагирует на речь игроков в голосовом чате. Phasmophobia приобрела значительную популярность благодаря видеороликам и стримингу в сервисах Twitch и YouTube.')
+
+@dp.message(Command('Alan_Wake2'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' компьютерная игра в жанре survival-horror, разработанная Remedy Entertainment и изданная Epic Games Publishing. Игра является прямым продолжением Alan Wake, вышедшей в 2010 году. Игра выпущена на платформах Microsoft Windows, PlayStation 5 и Xbox Series X/S 27 октября 2023 года.')
+
+@dp.message(Command('Little_Nightmares'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' компьютерная игра в жанре платформера с элементами квеста и хоррора, разработанная шведской компанией Tarsier Studios и выпущенная компанией Bandai Namco Entertainment. Игра вышла 28 апреля 2017 года на платформах Windows, PlayStation 4, Xbox One. 12 декабря 2023 года вышло мобильное издание игры на iOS и Android.')
+
+@dp.message(Command('The_Mortuary_Assistant'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' это игра в жанрах ужасов 2022 года, разработанная DarkStone Digital и изданная DreadXP. Действие происходит в 1998 году в маленьком городке в штате Коннектикут, игроки управляют недавно нанятым помощником в морге с привидениями.')
+
+@dp.message(Command('Ghost_Wathers'))
+async def cmd_smart(message:types.Message):
+    await message.answer('это кооперативный хоррор, в котором игроки посещают зловещие заброшенные здания и пытаются найти и поймать обитающих в них призраков. В режиме кооператива исследуют объекты четыре человека, которым противостоят десять видов различных призраков. На вооружении игроков двадцать точных инструментов, с помощью которых можно найти все улики и определить ауру приведения.')
+
+@dp.message(Command('The_Evil_Within'))
+async def cmd_smart(message:types.Message):
+    await message.answer('компьютерная игра в жанрах survival horror и шутера от третьего лица, разработанная компанией Tango Gameworks и выпущенная компанией Bethesda Softworks для платформ Windows, PlayStation 3, Xbox 360, PlayStation 4 и Xbox One в 2014 году. Игра была разработана под руководством Синдзи Миками, создателя серии Resident Evil. Она не имеет сюжетной связи с Resident Evil, но включает в себя ряд схожих тем, образов и элементов геймплея.')
+
+@dp.message(Command('Genshin_Impact'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' компьютерная игра в жанре action-adventure с открытым миром и элементами RPG, разработанная китайской компанией miHoYo Limited. Игра распространяется посредством цифровой дистрибуции по модели free-to-play, но имеет внутриигровой магазин, использующий реальную валюту. В основе Genshin Impact лежит система «гатя», называемая в игре «молитвой».')
+
+@dp.message(Command('Dota2'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' многопользовательская командная компьютерная игра в жанре MOBA, разработанная и изданная корпорацией Valve. Игра является продолжением DotA — пользовательской карты-модификации для игры Warcraft III: Reign of Chaos и дополнения к ней Warcraft III: The Frozen Throne. Игра изображает сражение на карте особого вида; в каждом матче участвуют две команды по пять игроков, управляющих разными «героями» — персонажами с различными наборами способностей и характеристиками. Для победы в матче команда должна уничтожить особый объект — «крепость», принадлежащий вражеской стороне, и защитить от уничтожения собственную «крепость». Dota 2 работает по модели free-to-play с элементами микроплатежей.')
+
+@dp.message(Command('World_of_Warcraft'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' массовая многопользовательская ролевая онлайн-игра, разработанная и издаваемая компанией Blizzard Entertainment. Действие World of Warcraft происходит в фэнтезийной вселенной Warcraft. Игра тесно связана с предыдущими играми серии — стратегиями в реальном времени; каждый игрок управляет одним персонажем и может взаимодействовать с другими игроками в общем виртуальном мире. Игра была анонсирована в 2001 году и выпущена 23 ноября 2004 года, к 10-летней годовщине Warcraft: Orcs & Humans.')
+
+@dp.message(Command('Bloodborne'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' компьютерная игра в жанре Action/RPG, разработанная совместно японскими компаниями FromSoftware и SCE Japan Studio эксклюзивно для игровой приставки PlayStation 4 под руководством геймдизайнера Хидэтаки Миядзаки. Выпуск игры состоялся 24 марта 2015 года. 24 ноября того же года состоялся релиз единственного дополнения к игре — Bloodborne: The Old Hunters.')
+
+@dp.message(Command('The_Wither2'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' компьютерная ролевая игра, разработанная польской компанией CD Projekt RED по мотивам серии романов «Ведьмак» известного польского писателя Анджея Сапковского, продолжение (сиквел) компьютерной игры «Ведьмак» 2007 года выпуска. Игра вышла 16 мая 2011 года — в России, 17 мая — в Европе и США и 17 апреля 2012 года на Xbox 360[. В мае 2015 года состоялся релиз третьей части серии — «Ведьмак 3: Дикая Охота».')
+
+@dp.message(Command('The_Wither3'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' компьютерная игра в жанре action/RPG, разработанная и изданная польской студией CD Projekt RED. Изначально игра была выпущена 19 мая 2015 года на Windows, PlayStation 4 и Xbox One, затем 15 октября 2019 года на Nintendo Switch, а 14 декабря 2022 года — на PlayStation 5 и Xbox Series X/S. Является продолжением игр «Ведьмак» (2007) и «Ведьмак 2: Убийцы королей» (2011). Это третья игра, действие которой происходит в литературной вселенной книжной серии «Ведьмак», созданной польским писателем Анджеем Сапковским, а также последняя, которая повествует о приключениях Геральта из Ривии.')
+
+@dp.message(Command('Dark_Souls2'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' компьютерная игра в жанре Action/RPG с открытым миром, разработанная и выпущенная компанией From Software для Xbox 360, PlayStation 3 и Microsoft Windows в 2014 году. За пределами Японии изданием игры занималась Bandai Namco. Игра является продолжением Dark Souls (2011).')
+
+@dp.message(Command('Hollow_Knight'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' компьютерная игра в жанре метроидвания, выпущенная инди-студией Team Cherry 24 февраля 2017 года для Windows. Месяцем позже была портирована разработчиками на Linux и macOS. Разработка игры была спонсирована через сервис Kickstarter.')
+
+@dp.message(Command('Sekiro_Shadows_Die_Twice'))
+async def cmd_smart(message:types.Message):
+    await message.answer(' компьютерная игра в жанре Action-adventure, разработанная японской компанией FromSoftware и изданная Activision (издателем на территории Японии была сама FromSoftware) для платформ Microsoft Windows, PlayStation 4 и Xbox One. Выход игры состоялся 22 марта 2019 года.')
+
+@dp.message(Command('Nioh'))
+async def cmd_smart(message:types.Message):
+    await message.answer('компьютерная игра в жанре action/RPG с историческим уклоном, разработанная японской студией Team Ninja. Игра издана компаниями Koei Tecmo и Sony Interactive Entertainment для PlayStation 4. Изначально игра была анонсирована как Oni в 2004 году. В сентябре 2015 игра была вновь представлена публике с новым названием Nioh. 7 ноября 2017 года была выпущена версия Nioh для Windows.')
 async def main():
     await dp.start_polling(bot)
 
